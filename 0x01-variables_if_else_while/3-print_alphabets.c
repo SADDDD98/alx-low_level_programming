@@ -12,12 +12,21 @@
 int main(void)
 {
 	char l;
-	char d;
-	for (l = 'a'; l <= 'z'; l++)
-		putchar(l '\n');
 
-	for (d = 'A'; d <= 'Z'; d++)
-		putchar(d '\n');
+	char d;
+
+	l = 'a';
+	d = 'A';
+	while
+	       	(l <= 'z') {
+			putchar(l);
+			l++;
+		}
+	while
+		(d <= 'Z') {
+			putchar(d);
+			d++;
+		}
 
 	putchar('\n');
 	return (0);
