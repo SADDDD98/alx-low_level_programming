@@ -1,9 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /*
- * main - Entry point
- * 
- * Description: 'prints all numbers of base 16.'
+ * main - 'prints all numbers of base 16.'
  * 
  * Return: Always 0 (Success)
  */
@@ -23,7 +21,6 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-	
 	return (0);
 
 }
