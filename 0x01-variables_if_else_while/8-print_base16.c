@@ -9,16 +9,15 @@
  */
 int main(void)
 {
-	int num;
-	char letter;
+	int m;
+	char l;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
+	for (m = 0; m < 10; m++)
+		putchar((m % 10) + '0');
 
-	for (letter = 'a'; letter <= 'f'; letter++)
-		putchar(letter);
+	for (l = 'a'; l <= 'f'; l++)
+		putchar(l);
 
 	putchar('\n');
-
 	return (0);
 }
