@@ -1,6 +1,10 @@
+#include <stdlib.h>
 #include <stdio.h>
-/*
- * main - prints all numbers of base 16.
+/**
+ * main - Entry point
+ * 
+ * Description: 'prints all numbers of base 16.'
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
